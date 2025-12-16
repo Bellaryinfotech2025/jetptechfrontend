@@ -1,0 +1,5 @@
+.main-content {
+  margin-top: 0;
+  min-height: calc(100vh - 48px); 
+  background: #f8f9fa;
+}

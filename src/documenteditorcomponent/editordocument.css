@@ -1,0 +1,720 @@
+.orchid-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Main Wrapper */
+.tulip-leopard-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 50%, #f0f4f8 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+/* Header */
+.rose-tiger-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  gap: 1rem;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+
+.daisy-wolf-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.lily-bear-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sunflower-fox-icon {
+  width: 24px;
+  height: 24px;
+  color: #ff6b35;
+}
+
+.jasmine-deer-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ff6b35;
+}
+
+.violet-rabbit-tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.peony-mouse-tab {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  transition: all 0.2s;
+}
+
+.peony-mouse-tab-active {
+  background: #f3f4f6;
+  color: #111827;
+  font-weight: 600;
+}
+
+.poppy-squirrel-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.marigold-raccoon-filename {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  text-align: center;
+  padding: 0.25rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.marigold-raccoon-filename:focus {
+  outline: 2px solid #3b82f6;
+  border-radius: 0.25rem;
+}
+
+.iris-koala-modified {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.dahlia-panda-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.carnation-lion-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  background: white;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.carnation-lion-btn:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.lavender-owl-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.azalea-eagle-save {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  background: #ff6b35;
+  color: white;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.azalea-eagle-save:hover {
+  background: #ff5722;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(255, 107, 53, 0.2);
+}
+
+.hydrangea-hawk-hidden {
+  display: none;
+}
+
+.bluebell-kangaroo-mobile {
+  display: none;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Toolbar */
+.primrose-giraffe-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  overflow-x: auto;
+  z-index: 99;
+}
+
+.daffodil-rhino-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.gardenia-beaver-tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background: transparent;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gardenia-beaver-tool:hover {
+  background: #e5e7eb;
+}
+
+.gardenia-beaver-tool-active {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.aster-otter-icon {
+  width: 20px;
+  height: 20px;
+  color: #374151;
+}
+
+.zinnia-lynx-label {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.begonia-seal-divider {
+  width: 1px;
+  height: 32px;
+  background: #e5e7eb;
+  margin: 0 0.5rem;
+}
+
+.freesia-moose-zoom {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  padding: 0 0.5rem;
+}
+
+/* Find & Replace Panel */
+.find-replace-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #fff3cd;
+  border-bottom: 1px solid #ffc107;
+}
+
+.find-input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  min-width: 150px;
+}
+
+.find-btn {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.find-btn:hover {
+  background: #2563eb;
+}
+
+.find-btn-close {
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Content */
+.hibiscus-dolphin-main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Left Sidebar - FIXED with page thumbnails */
+.lotus-penguin-left {
+  width: 180px;
+  background: #f3f4f6;
+  border-right: 1px solid #e5e7eb;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+}
+
+.pages-sidebar-header {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mimosa-swan-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.page-thumbnail {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-height: 120px;
+}
+
+.page-thumbnail:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+}
+
+.page-thumbnail.active {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.page-thumbnail-content {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 80px;
+  overflow: hidden;
+  font-size: 0.65rem;
+  line-height: 1.2;
+}
+
+.page-mini-preview {
+  color: #6b7280;
+  word-break: break-word;
+}
+
+.page-thumbnail-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.delete-page-btn {
+  padding: 0.25rem;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.delete-page-btn:hover {
+  background: #dc2626;
+}
+
+/* Editor Area - FIXED to show all pages */
+.snapdragon-bison-editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #6b7280;
+  overflow: auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.amaryllis-puma-canvas {
+  transform-origin: top center;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* FIXED: Show all pages vertically, highlight active */
+.cherry-cobra-page {
+  width: 816px;
+  min-height: 1056px;
+  background: white;
+  padding: 60px 72px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 0 auto 2rem;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #111827;
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: normal;
+  position: relative;
+}
+
+.cherry-cobra-page.active-page {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.cherry-cobra-page:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Ensure images display properly */
+.cherry-cobra-page img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Ensure tables display properly */
+.cherry-cobra-page table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.cherry-cobra-page table td,
+.cherry-cobra-page table th {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+/* Bottom Controls */
+.magnolia-jaguar-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 2rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.buttercup-walrus-page-btn {
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: all 0.2s;
+}
+
+.buttercup-walrus-page-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.buttercup-walrus-page-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.jasmine-meerkat-page {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.gardenia-crocodile-fit {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: white;
+  color: #111827;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gardenia-crocodile-fit:hover {
+  background: #f3f4f6;
+}
+
+/* Right Sidebar */
+.honeysuckle-flamingo-sidebar {
+  width: 320px;
+  background: white;
+  border-left: 1px solid #e5e7eb;
+  overflow-y: auto;
+  transition: transform 0.3s;
+  z-index: 98;
+}
+
+.mobile-close-btn {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.larkspur-platypus-options {
+  padding: 1.5rem;
+}
+
+.petunia-armadillo-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.crocus-badger-section {
+  margin-bottom: 1.5rem;
+}
+
+.verbena-wombat-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.geranium-hedgehog-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  background: white;
+  font-size: 0.875rem;
+  color: #111827;
+  cursor: pointer;
+}
+
+.geranium-hedgehog-select:focus {
+  outline: 2px solid #3b82f6;
+  border-color: #3b82f6;
+}
+
+.geranium-hedgehog-select-small {
+  width: 80px;
+}
+
+.forsythia-mongoose-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.columbine-wolverine-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.echinacea-lemur-format {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  background: white;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.echinacea-lemur-format:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.echinacea-lemur-format:active {
+  background: #dbeafe;
+  border-color: #3b82f6;
+}
+
+.anemone-capybara-color {
+  position: relative;
+  width: 48px;
+  height: 36px;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bluebell-narwhal-picker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .rose-tiger-header {
+    padding: 0.5rem 1rem;
+  }
+
+  .daisy-wolf-left {
+    gap: 1rem;
+  }
+
+  .violet-rabbit-tabs,
+  .dahlia-panda-right .carnation-lion-btn {
+    display: none;
+  }
+
+  .bluebell-kangaroo-mobile {
+    display: block;
+  }
+
+  .primrose-giraffe-toolbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .daffodil-rhino-tools {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .zinnia-lynx-label {
+    display: none;
+  }
+
+  .lotus-penguin-left {
+    width: 60px;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .pages-sidebar-header {
+    display: none;
+  }
+
+  .page-thumbnail-content {
+    display: none;
+  }
+
+  .honeysuckle-flamingo-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1000;
+    transform: translateX(100%);
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .honeysuckle-flamingo-sidebar-open {
+    transform: translateX(0);
+  }
+
+  .mobile-close-btn {
+    display: block;
+  }
+
+  .snapdragon-bison-editor {
+    padding: 1rem;
+  }
+
+  .cherry-cobra-page {
+    width: 100%;
+    max-width: 816px;
+    padding: 40px 24px;
+    min-height: 800px;
+  }
+
+  .amaryllis-puma-canvas {
+    width: 100%;
+  }
+
+  .magnolia-jaguar-bottom {
+    bottom: 1rem;
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .jasmine-deer-brand {
+    font-size: 1rem;
+  }
+
+  .marigold-raccoon-filename {
+    font-size: 0.875rem;
+    max-width: 150px;
+  }
+
+  .cherry-cobra-page {
+    padding: 24px 16px;
+  }
+
+  .petunia-armadillo-title {
+    font-size: 1rem;
+  }
+}

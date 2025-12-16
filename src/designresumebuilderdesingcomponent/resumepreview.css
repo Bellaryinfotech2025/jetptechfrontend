@@ -1,0 +1,414 @@
+.panther-preview-container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+  background: var(--rose-bg-gray);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wolf-resume-container {
+  width: 8.5in;
+  min-height: 11in;
+  background: #ffffff;
+  box-shadow: 0 4px 16px var(--wolf-shadow-hover);
+  padding: 0.6in 0.7in;
+  transform-origin: top center;
+}
+
+.eagle-header {
+  text-align: center;
+  border-bottom: 2px solid var(--phoenix-primary);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.phoenix-name {
+  font-size: 26pt;
+  font-weight: 700;
+  color: var(--phoenix-primary);
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.orchid-title {
+  font-size: 11.5pt;
+  font-weight: 600;
+  color: var(--lotus-text-light);
+  margin-bottom: 8px;
+}
+
+.lotus-contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 9.5pt;
+  color: var(--lotus-text-light);
+}
+
+.lotus-contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tiger-section-title {
+  font-size: 11.5pt;
+  font-weight: 700;
+  color: var(--phoenix-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1.5px solid var(--tulip-border);
+  padding-bottom: 3px;
+  margin: 16px 0 10px 0;
+}
+
+.dolphin-summary {
+  font-size: 10pt;
+  color: var(--eagle-text);
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.swan-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 9.5pt;
+}
+
+.swan-skills-table td {
+  padding: 7px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--tulip-border);
+}
+
+.swan-skills-table td:first-child {
+  width: 28%;
+  font-weight: 700;
+  color: var(--phoenix-primary);
+  background: var(--lily-bg-light);
+}
+
+.jasmine-project {
+  margin-bottom: 14px;
+  page-break-inside: avoid;
+}
+
+.rose-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.orchid-project-title {
+  font-weight: 700;
+  font-size: 10.5pt;
+  color: var(--phoenix-primary);
+}
+
+.lily-project-type {
+  font-size: 9pt;
+  color: var(--lotus-text-light);
+  font-weight: 500;
+}
+
+.tulip-project-duration {
+  font-size: 9pt;
+  color: var(--lotus-text-light);
+  font-weight: 500;
+}
+
+.hawk-project-details {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0;
+}
+
+.hawk-project-details li {
+  position: relative;
+  padding-left: 14px;
+  margin-bottom: 3px;
+  font-size: 9.5pt;
+  color: var(--eagle-text);
+  line-height: 1.4;
+}
+
+.hawk-project-details li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--dolphin-secondary);
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+
+.sparrow-tech-stack {
+  font-size: 9pt;
+  color: var(--lotus-text-light);
+  margin-top: 4px;
+}
+
+.sparrow-tech-stack strong {
+  color: var(--phoenix-primary);
+}
+
+.iris-education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.panther-education-degree {
+  font-weight: 600;
+  color: var(--phoenix-primary);
+  font-size: 10pt;
+}
+
+.wolf-education-school {
+  color: var(--lotus-text-light);
+  font-size: 9.5pt;
+}
+
+.eagle-education-year {
+  color: var(--lotus-text-light);
+  font-weight: 500;
+  font-size: 9.5pt;
+}
+
+.phoenix-declaration {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--tulip-border);
+}
+
+.phoenix-declaration p {
+  font-size: 9.5pt;
+  color: var(--eagle-text);
+  margin-bottom: 12px;
+}
+
+.phoenix-declaration-signature {
+  font-weight: 600;
+  font-size: 10pt;
+  color: var(--phoenix-primary);
+  margin-top: 8px;
+}
+
+@media print {
+  .panther-preview-container {
+    background: white;
+    padding: 0;
+  }
+
+  .wolf-resume-container {
+    box-shadow: none;
+    padding: 0.5in 0.6in;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .panther-preview-container {
+    padding: 1rem;
+  }
+
+  .wolf-resume-container {
+    width: 100%;
+    max-width: 8.5in;
+    padding: 0.5in;
+  }
+}
+
+@media (max-width: 768px) {
+  .panther-preview-container {
+    padding: 0.75rem;
+  }
+
+  .wolf-resume-container {
+    padding: 1.25rem;
+    width: 100%;
+  }
+
+  .phoenix-name {
+    font-size: 22pt;
+  }
+
+  .orchid-title {
+    font-size: 10pt;
+  }
+
+  .lotus-contact-info {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 9pt;
+  }
+
+  .tiger-section-title {
+    font-size: 10.5pt;
+  }
+
+  .dolphin-summary {
+    font-size: 9.5pt;
+  }
+
+  .swan-skills-table {
+    font-size: 9pt;
+  }
+
+  .orchid-project-title {
+    font-size: 10pt;
+  }
+
+  .hawk-project-details li {
+    font-size: 9pt;
+  }
+}
+
+@media (max-width: 480px) {
+  .wolf-resume-container {
+    padding: 1rem;
+  }
+
+  .phoenix-name {
+    font-size: 18pt;
+  }
+
+  .orchid-title {
+    font-size: 9pt;
+  }
+
+  .tiger-section-title {
+    font-size: 10pt;
+  }
+
+  .swan-skills-table td {
+    display: block;
+    width: 100%;
+    padding: 6px;
+  }
+
+  .swan-skills-table td:first-child {
+    width: 100%;
+    background: var(--lily-bg-light);
+  }
+}
+/* Critical fixes for PDF export */
+.wolf-resume-container {
+  width: 8.5in;
+  min-height: 11in;
+  background: #ffffff;
+  box-shadow: 0 4px 16px var(--wolf-shadow-hover);
+  padding: 0.75in 0.8in; /* Increased side padding to prevent cutoff */
+  box-sizing: border-box;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+.eagle-header {
+  page-break-after: avoid; /* Prevents header from splitting */
+  margin-bottom: 20px;
+}
+
+/* Fix duration/year cutoff - use flex with proper alignment */
+.rose-project-header,
+.iris-education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.project-left,
+.education-left {
+  flex: 1;
+  min-width: 0; /* Allows text wrapping */
+}
+
+.project-right,
+.education-right {
+  flex: 0 0 auto;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--lotus-text-light);
+  font-style: italic;
+}
+
+/* Ensure no overflow on right side */
+.tulip-project-duration,
+.eagle-education-year {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+/* Better table for skills */
+.swan-skills-table td.skills-category {
+  width: 28%;
+  word-wrap: break-word;
+}
+
+.swan-skills-table td.skills-items {
+  word-wrap: break-word;
+}
+
+/* Section spacing */
+.resume-section {
+  page-break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.jasmine-project {
+  page-break-inside: avoid;
+  margin-bottom: 18px;
+}
+
+/* Print-specific fixes */
+@media print {
+  .panther-preview-container {
+    background: white !important;
+    padding: 0 !important;
+  }
+
+  .wolf-resume-container {
+    box-shadow: none !important;
+    padding: 0.7in 0.75in !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Force full width usage */
+  .rose-project-header,
+  .iris-education-item {
+    break-inside: avoid;
+  }
+
+  .project-right,
+  .education-right {
+    text-align: right;
+  }
+}
+
+/* Mobile view improvements */
+@media (max-width: 768px) {
+  .rose-project-header,
+  .iris-education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-right,
+  .education-right {
+    text-align: left;
+    margin-top: 4px;
+  }
+}
