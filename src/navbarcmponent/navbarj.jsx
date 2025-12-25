@@ -4,7 +4,7 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 import { MdOutlineClose } from "react-icons/md";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import jetlogo from "../assets/logo.png"
+import jetlogo from "../assets/newlogo.jpg"
 
 export default function NavbarJet() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function NavbarJet() {
           
           <div className="logo">
             <div className="logo-icon"><Link to="/" style={{textDecoration:'none'}}>
-            <img src={jetlogo} alt="jetptech" style={{width:'120px',height:'50px'}}/>
+            <img src={jetlogo} alt="jetptech" style={{width:'90px',height:'60px'}}/>
             </Link></div>
             
           </div>
